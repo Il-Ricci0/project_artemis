@@ -1,0 +1,20 @@
+#bubble {
+    @extend .menu;
+    width: 35px;
+    height: 35px;
+    z-index: 1000;
+}
+
+#sidebar {
+    @extend .menu;
+    width: 100px;
+    height: 100dvh;
+    z-index: 900;
+}
+
+.menu
+{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
