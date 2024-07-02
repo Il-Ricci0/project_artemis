@@ -7,13 +7,12 @@
 
 #sidebar {
     @extend .menu;
-    width: 100px;
+    width: 300px;
     height: 100dvh;
     z-index: 900;
 }
 
-.menu
-{
+.menu {
     position: fixed;
     right: 0;
     top: 0;

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MeshtasticService } from '../../../../services/meshtastic.service';
 
 @Component({
   selector: 'app-menu',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
   public collapsed: boolean = true;
+
+  public constructor(protected meshtasticService: MeshtasticService) {
+
+  }
 }
